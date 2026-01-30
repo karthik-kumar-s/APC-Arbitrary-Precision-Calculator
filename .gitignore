@@ -1,0 +1,15 @@
+# build artifacts
+*.o
+*.out
+*.exe
+a.out
+
+# build directories
+build/
+
+# editor configs
+.vscode/
+
+# WSL / OS junk
+*.swp
+.DS_Store
