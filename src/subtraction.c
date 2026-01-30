@@ -70,6 +70,10 @@ void subtraction(node_t *head1, node_t *tail1,
                  node_t **headR, node_t **tailR,
                  int sign)
 {
+    (void)head1;
+    (void)head2;
+    (void)sign;
+
     node_t *temp1 = tail1;
     node_t *temp2 = tail2;
 

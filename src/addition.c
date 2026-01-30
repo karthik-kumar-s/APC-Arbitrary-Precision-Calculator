@@ -13,6 +13,9 @@ void addition(node_t *head1, node_t *tail1,
               node_t *head2, node_t *tail2,
               node_t **headR, node_t **tailR)
 {
+    (void)head1;
+    (void)head2;
+
     node_t *temp1 = tail1;
     node_t *temp2 = tail2;
 
